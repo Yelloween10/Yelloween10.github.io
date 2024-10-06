@@ -270,7 +270,7 @@ body{
     transition: left 0.3s ease-in-out;
 }
 
-@media (max-width: 975px){
+@media (max-width: 1080px){
     #navbar {
         width: 40%;
         left: -40%;
