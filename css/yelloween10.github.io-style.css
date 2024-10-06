@@ -272,7 +272,7 @@ body{
 
 @media (max-width: 975px){
     #navbar {
-        width: 35%;
-        left: -35%;
+        width: 40%;
+        left: -40%;
     }
 }
