@@ -122,22 +122,6 @@
 
         createStars();
 
-        function updateVisits() {
-            fetch('php/get_visits.php')
-                .then(response => response.text())
-                .then(visits => {
-                    const visitElement = document.getElementById('visitCount');
-                    visitElement.textContent = `I started as a Roblox developer, scripting in Lua. My most popular game has ${visits} visits. Now, I work with C# and GDScript in Godot, where game development is my main focus. I've also begun contributing to the Godot engine itself using C++.`;
-                })
-                .catch(error => {
-                    console.error('Error fetching visit count:', error);
-                });
-        }
-
-        setInterval(updateVisits, 1000);
-
-        updateVisits();
-
     </script>
 </body>
 </html>
